@@ -1,0 +1,37 @@
+{
+  "name": "calpace",
+  "version": "0.1.0",
+  "description": "The official command-line interface for Calpace.",
+  "type": "module",
+  "main": "bin/calpace.js",
+  "bin": {
+    "calpace": "bin/calpace.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node bin/calpace.js",
+    "test": "node --test test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Calpace/CLI.git"
+  },
+  "keywords": [
+    "calpace",
+    "cli",
+    "calpace-cli"
+  ],
+  "author": "Calpace <calpace.app@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Calpace/CLI/issues"
+  },
+  "homepage": "https://github.com/Calpace/CLI#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
